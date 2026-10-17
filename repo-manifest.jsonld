@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/ccf24bf121a2b4c5ffa5df0d4a8e0ac1e26fb813",
       "git:hexsha": "ccf24bf121a2b4c5ffa5df0d4a8e0ac1e26fb813",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/cvxpy/cvxpy/commit/c8d61faf68887df49749926baa26a1a2eb848bc6",
