@@ -1,0 +1,17 @@
+[2026-11-22T07:20:51Z] === ENRICH ITERATION 2 START | repo=cvxpy/cvxpy sha=76b05279 ===
+[2026-11-22T07:20:51Z] [iter=2] PHASE START: enrich repo=cvxpy/cvxpy sha=76b05279 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/76b05279-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/76b0527916badef2d2c0599a2ed2960d0433e275.nq.gz
+[2026-11-22T07:21:11Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T07:23:25Z] [iter=2] AST store loaded triples=11267676 load_secs=129 mem_mb=1000 MB
+[2026-11-22T07:23:25Z] [iter=2] Step 2: Finding LSP targets mem_mb=1000 MB
+[2026-11-22T07:23:56Z] [iter=2] LSP targets found call_sites=74448 imports=2365 extends=475 implements=0 secs=31
+[2026-11-22T07:23:58Z] [iter=2] Loaded checkpoint partial graph triples=34362
+[2026-11-22T07:23:58Z] [iter=2] Primed enclosing-def cache from persisted triples entries=93
+[2026-11-22T07:24:21Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1000 MB
+[2026-11-22T07:25:40Z] [iter=2] Position index built positions=722492 nodes_with_types=900883 secs=79 mem_mb=1771 MB
+[2026-11-22T07:25:40Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1771 MB already_completed_types=[] already_completed_files=3
+[2026-11-22T07:25:40Z] [iter=2] Resolving target type target_type=call_site count=74448
+[2026-11-22T07:25:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=0 resolved=0 errors=0 current=cvxpy/cvxcore/python/cvxcore_wrap.cxx
+[2026-11-22T11:21:00Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=3 new_files_this_iter=0 mem_mb=1797 MB
+[2026-11-22T11:21:00Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/76b0527916badef2d2c0599a2ed2960d0433e275.nq.gz triples=57887
+[2026-11-22T11:21:01Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-11-22T11:21:01Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=14409 elapsed_min=240.1 files_completed=3
