@@ -2,8 +2,29 @@
   "commit_sha": "76b0527916badef2d2c0599a2ed2960d0433e275",
   "completed_files": [
     "cvxpy/cvxcore/include/Eigen/src/Core/CoreEvaluators.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/Dot.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/MathFunctions.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/Reshaped.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/Visitor.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/AVX/Complex.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/AVX/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/AVX512/MathFunctions.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/AltiVec/PacketMath.h",
-    "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/PacketMath.h"
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/Default/Half.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/SSE/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/SVE/MathFunctions.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/SVE/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Eigenvalues/ComplexEigenSolver.h",
+    "cvxpy/cvxcore/include/Eigen/src/Geometry/Rotation2D.h",
+    "cvxpy/cvxcore/include/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h",
+    "cvxpy/cvxcore/include/Eigen/src/LU/arch/InverseSize4.h",
+    "cvxpy/cvxcore/include/Eigen/src/SVD/JacobiSVD.h",
+    "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseCwiseBinaryOp.h",
+    "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseMatrix.h",
+    "cvxpy/cvxcore/include/Eigen/src/SparseCore/TriangularSolver.h",
+    "cvxpy/cvxcore/python/cvxcore_wrap.cxx"
   ],
   "completed_types": [],
   "stats": {
@@ -11,7 +32,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/76b0527916badef2d2c0599a2ed2960d0433e275.nq.gz",
     "call_sites": 74448,
     "import_statements": 2365,
-    "call_targets_resolved": 6635,
+    "call_targets_resolved": 9879,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -25,5 +46,5 @@
     "extends_class_denormalized": 329,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14408
+  "elapsed_seconds": 14405
 }
