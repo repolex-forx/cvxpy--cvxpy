@@ -1,0 +1,29 @@
+{
+  "commit_sha": "76b0527916badef2d2c0599a2ed2960d0433e275",
+  "completed_files": [
+    "cvxpy/cvxcore/include/Eigen/src/Core/CoreEvaluators.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/AltiVec/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/PacketMath.h"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/cvxpy/cvxpy/lsp/76b0527916badef2d2c0599a2ed2960d0433e275",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/76b0527916badef2d2c0599a2ed2960d0433e275.nq.gz",
+    "call_sites": 74448,
+    "import_statements": 2365,
+    "call_targets_resolved": 3333,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 475,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 6496,
+    "import_symbols_denormalized": 2864,
+    "extends_class_denormalized": 329,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14421
+}
