@@ -1,0 +1,17 @@
+[2026-11-23T11:12:47Z] === ENRICH ITERATION 14 START | repo=cvxpy/cvxpy sha=3b964472 ===
+[2026-11-23T11:12:47Z] [iter=14] PHASE START: enrich repo=cvxpy/cvxpy sha=3b964472 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/3b964472-enrich-iter-014.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz
+[2026-11-23T11:13:06Z] [iter=14] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-23T11:15:12Z] [iter=14] AST store loaded triples=11192358 load_secs=122 mem_mb=979 MB
+[2026-11-23T11:15:12Z] [iter=14] Step 2: Finding LSP targets mem_mb=979 MB
+[2026-11-23T11:15:40Z] [iter=14] LSP targets found call_sites=73654 imports=2350 extends=471 implements=0 secs=28
+[2026-11-23T11:15:45Z] [iter=14] Loaded checkpoint partial graph triples=95480
+[2026-11-23T11:15:45Z] [iter=14] Primed enclosing-def cache from persisted triples entries=541
+[2026-11-23T11:16:06Z] [iter=14] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=979 MB
+[2026-11-23T11:17:13Z] [iter=14] Position index built positions=717759 nodes_with_types=894707 secs=66 mem_mb=1898 MB
+[2026-11-23T11:17:13Z] [iter=14] Step 3: Starting LSP resolution mem_mb=1898 MB already_completed_types=[] already_completed_files=27
+[2026-11-23T11:17:13Z] [iter=14] Resolving target type target_type=call_site count=73654
+[2026-11-23T11:17:14Z] [iter=14] HEARTBEAT target_type=call_site elapsed_min=4.5 files_done=0 resolved=0 errors=0 current=cvxpy/tests/test_dqcp.py
+[2026-11-23T11:43:11Z] [iter=14] CHECKPOINT TRIGGERED elapsed_min=30.4 files_completed=27 new_files_this_iter=0 mem_mb=1898 MB
+[2026-11-23T11:43:11Z] [iter=14] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz triples=100278
+[2026-11-23T11:43:12Z] [iter=14] Checkpoint written, exiting with code 7
+[2026-11-23T11:43:12Z] [iter=14] PHASE END: enrich (checkpointed) elapsed_s=1824 elapsed_min=30.4 files_completed=27
