@@ -7,10 +7,12 @@
     "cvxpy/atoms/atom.py",
     "cvxpy/atoms/cummax.py",
     "cvxpy/atoms/max.py",
+    "cvxpy/atoms/sum_largest.py",
     "cvxpy/constraints/nonpos.py",
     "cvxpy/constraints/power.py",
     "cvxpy/cvxcore/python/canonInterface.py",
     "cvxpy/cvxcore/python/cvxcore.py",
+    "cvxpy/expressions/leaf.py",
     "cvxpy/interface/matrix_utilities.py",
     "cvxpy/interface/numpy_interface/matrix_interface.py",
     "cvxpy/lin_ops/backends/coo_backend.py",
@@ -34,6 +36,7 @@
     "cvxpy/reductions/solvers/conic_solvers/qoco_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/scip_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/xpress_conif.py",
+    "cvxpy/reductions/solvers/intermediate_chain.py",
     "cvxpy/tests/solver_test_helpers.py",
     "cvxpy/tests/test_atoms.py",
     "cvxpy/tests/test_attributes.py",
@@ -53,6 +56,7 @@
     "cvxpy/tests/test_examples.py",
     "cvxpy/tests/test_expression_methods.py",
     "cvxpy/tests/test_expressions.py",
+    "cvxpy/tests/test_grad.py",
     "cvxpy/tests/test_kron_canon.py",
     "cvxpy/tests/test_labels.py",
     "cvxpy/tests/test_linalg_utils.py",
@@ -67,7 +71,10 @@
     "cvxpy/tests/test_python_backends.py",
     "cvxpy/tests/test_qp_solvers.py",
     "cvxpy/tests/test_quantum_rel_entr.py",
+    "cvxpy/tests/test_versioning.py",
+    "cvxpy/tests/test_von_neumann_entr.py",
     "cvxpy/transforms/scalarize.py",
+    "cvxpy/utilities/coeff_extractor.py",
     "cvxpy/utilities/key_utils.py",
     "doc/sphinxext/docscrape.py"
   ],
@@ -77,7 +84,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
     "call_sites": 73654,
     "import_statements": 2350,
-    "call_targets_resolved": 16864,
+    "call_targets_resolved": 17465,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -91,5 +98,5 @@
     "extends_class_denormalized": 325,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1825
+  "elapsed_seconds": 1804
 }
