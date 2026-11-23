@@ -1,12 +1,16 @@
 {
   "commit_sha": "3b964472beaa18ab765c335bc50f622084d6567b",
   "completed_files": [
+    "cvxpy/atoms/max.py",
     "cvxpy/cvxcore/python/canonInterface.py",
     "cvxpy/cvxcore/python/cvxcore.py",
+    "cvxpy/reductions/dcp2cone/cone_matrix_stuffing.py",
+    "cvxpy/tests/test_atoms.py",
     "cvxpy/tests/test_conic_solvers.py",
     "cvxpy/tests/test_dpp.py",
     "cvxpy/tests/test_examples.py",
-    "cvxpy/tests/test_python_backends.py"
+    "cvxpy/tests/test_python_backends.py",
+    "cvxpy/utilities/key_utils.py"
   ],
   "completed_types": [],
   "stats": {
@@ -14,7 +18,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
     "call_sites": 73654,
     "import_statements": 2350,
-    "call_targets_resolved": 4320,
+    "call_targets_resolved": 4953,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
