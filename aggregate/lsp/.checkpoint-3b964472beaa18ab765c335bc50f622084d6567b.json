@@ -29,6 +29,7 @@
     "cvxpy/reductions/solvers/conic_solvers/cuclarabel_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/glpk_mi_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/mosek_conif.py",
+    "cvxpy/reductions/solvers/conic_solvers/qoco_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/scip_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/xpress_conif.py",
     "cvxpy/tests/solver_test_helpers.py",
@@ -52,9 +53,11 @@
     "cvxpy/tests/test_expressions.py",
     "cvxpy/tests/test_labels.py",
     "cvxpy/tests/test_linalg_utils.py",
+    "cvxpy/tests/test_linear_cone.py",
     "cvxpy/tests/test_logic.py",
     "cvxpy/tests/test_objectives.py",
     "cvxpy/tests/test_pow_cone_nd.py",
+    "cvxpy/tests/test_power_atom.py",
     "cvxpy/tests/test_power_tools.py",
     "cvxpy/tests/test_problem.py",
     "cvxpy/tests/test_python_backends.py",
@@ -69,7 +72,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
     "call_sites": 73654,
     "import_statements": 2350,
-    "call_targets_resolved": 15253,
+    "call_targets_resolved": 15807,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -83,5 +86,5 @@
     "extends_class_denormalized": 325,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1810
+  "elapsed_seconds": 1820
 }
