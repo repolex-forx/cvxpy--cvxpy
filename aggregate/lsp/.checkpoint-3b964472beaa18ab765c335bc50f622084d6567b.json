@@ -61,6 +61,7 @@
     "cvxpy/tests/test_power_tools.py",
     "cvxpy/tests/test_problem.py",
     "cvxpy/tests/test_python_backends.py",
+    "cvxpy/tests/test_qp_solvers.py",
     "cvxpy/tests/test_quantum_rel_entr.py",
     "cvxpy/transforms/scalarize.py",
     "cvxpy/utilities/key_utils.py",
@@ -72,7 +73,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
     "call_sites": 73654,
     "import_statements": 2350,
-    "call_targets_resolved": 15807,
+    "call_targets_resolved": 16385,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -86,5 +87,5 @@
     "extends_class_denormalized": 325,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1820
+  "elapsed_seconds": 1814
 }
