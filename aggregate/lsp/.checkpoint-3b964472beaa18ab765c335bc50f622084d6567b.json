@@ -7,6 +7,7 @@
     "cvxpy/atoms/affine/sum.py",
     "cvxpy/atoms/affine/transpose.py",
     "cvxpy/atoms/atom.py",
+    "cvxpy/atoms/condition_number.py",
     "cvxpy/atoms/cummax.py",
     "cvxpy/atoms/elementwise/kl_div.py",
     "cvxpy/atoms/max.py",
@@ -63,10 +64,12 @@
     "cvxpy/tests/test_backend_selection.py",
     "cvxpy/tests/test_coeff_extractor.py",
     "cvxpy/tests/test_complex.py",
+    "cvxpy/tests/test_cone2cone.py",
     "cvxpy/tests/test_conic_solvers.py",
     "cvxpy/tests/test_constant.py",
     "cvxpy/tests/test_constant_atoms.py",
     "cvxpy/tests/test_constraints.py",
+    "cvxpy/tests/test_convolution.py",
     "cvxpy/tests/test_copt_write.py",
     "cvxpy/tests/test_copy.py",
     "cvxpy/tests/test_cvxpygen.py",
@@ -85,6 +88,7 @@
     "cvxpy/tests/test_linalg_utils.py",
     "cvxpy/tests/test_linear_cone.py",
     "cvxpy/tests/test_logic.py",
+    "cvxpy/tests/test_matrices.py",
     "cvxpy/tests/test_mip_vars.py",
     "cvxpy/tests/test_nd_matmul.py",
     "cvxpy/tests/test_objectives.py",
@@ -107,6 +111,7 @@
     "cvxpy/utilities/coeff_extractor.py",
     "cvxpy/utilities/einsum_utilities.py",
     "cvxpy/utilities/key_utils.py",
+    "cvxpy/utilities/performance_utils.py",
     "doc/sphinxext/docscrape.py"
   ],
   "completed_types": [],
@@ -115,7 +120,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
     "call_sites": 73654,
     "import_statements": 2350,
-    "call_targets_resolved": 19586,
+    "call_targets_resolved": 20146,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -129,5 +134,5 @@
     "extends_class_denormalized": 325,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1816
+  "elapsed_seconds": 1817
 }
