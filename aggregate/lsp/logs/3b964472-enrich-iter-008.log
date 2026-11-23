@@ -1,0 +1,17 @@
+[2026-11-23T07:55:55Z] === ENRICH ITERATION 8 START | repo=cvxpy/cvxpy sha=3b964472 ===
+[2026-11-23T07:55:55Z] [iter=8] PHASE START: enrich repo=cvxpy/cvxpy sha=3b964472 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/3b964472-enrich-iter-008.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz
+[2026-11-23T07:56:14Z] [iter=8] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-23T07:59:36Z] [iter=8] AST store loaded triples=11192358 load_secs=198 mem_mb=986 MB
+[2026-11-23T07:59:36Z] [iter=8] Step 2: Finding LSP targets mem_mb=986 MB
+[2026-11-23T08:00:03Z] [iter=8] LSP targets found call_sites=73654 imports=2350 extends=471 implements=0 secs=27
+[2026-11-23T08:00:05Z] [iter=8] Loaded checkpoint partial graph triples=55554
+[2026-11-23T08:00:05Z] [iter=8] Primed enclosing-def cache from persisted triples entries=301
+[2026-11-23T08:00:26Z] [iter=8] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=986 MB
+[2026-11-23T08:01:28Z] [iter=8] Position index built positions=717759 nodes_with_types=894707 secs=62 mem_mb=1832 MB
+[2026-11-23T08:01:28Z] [iter=8] Step 3: Starting LSP resolution mem_mb=1832 MB already_completed_types=[] already_completed_files=10
+[2026-11-23T08:01:28Z] [iter=8] Resolving target type target_type=call_site count=73654
+[2026-11-23T08:01:30Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=0 resolved=0 errors=0 current=cvxpy/tests/test_expressions.py
+[2026-11-23T08:25:57Z] [iter=8] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=10 new_files_this_iter=0 mem_mb=1832 MB
+[2026-11-23T08:25:57Z] [iter=8] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz triples=62427
+[2026-11-23T08:25:57Z] [iter=8] Checkpoint written, exiting with code 7
+[2026-11-23T08:25:57Z] [iter=8] PHASE END: enrich (checkpointed) elapsed_s=1801 elapsed_min=30.0 files_completed=10
