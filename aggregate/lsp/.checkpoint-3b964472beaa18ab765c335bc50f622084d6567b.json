@@ -1,0 +1,29 @@
+{
+  "commit_sha": "3b964472beaa18ab765c335bc50f622084d6567b",
+  "completed_files": [
+    "cvxpy/cvxcore/python/cvxcore.py",
+    "cvxpy/tests/test_examples.py",
+    "cvxpy/tests/test_python_backends.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/cvxpy/cvxpy/lsp/3b964472beaa18ab765c335bc50f622084d6567b",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
+    "call_sites": 73654,
+    "import_statements": 2350,
+    "call_targets_resolved": 1259,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 471,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 6444,
+    "import_symbols_denormalized": 2857,
+    "extends_class_denormalized": 325,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1818
+}
