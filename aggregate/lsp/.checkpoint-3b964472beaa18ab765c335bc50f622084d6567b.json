@@ -6,12 +6,14 @@
     "cvxpy/cvxcore/python/canonInterface.py",
     "cvxpy/cvxcore/python/cvxcore.py",
     "cvxpy/interface/numpy_interface/matrix_interface.py",
+    "cvxpy/lin_ops/tree_mat.py",
     "cvxpy/problems/iterative.py",
     "cvxpy/reductions/complex2real/canonicalizers/matrix_canon.py",
     "cvxpy/reductions/dcp2cone/cone_matrix_stuffing.py",
     "cvxpy/reductions/dcp2cone/dcp2cone.py",
     "cvxpy/reductions/solvers/conic_solvers/mosek_conif.py",
     "cvxpy/tests/test_atoms.py",
+    "cvxpy/tests/test_complex.py",
     "cvxpy/tests/test_conic_solvers.py",
     "cvxpy/tests/test_cvxpygen.py",
     "cvxpy/tests/test_dpp.py",
@@ -20,9 +22,12 @@
     "cvxpy/tests/test_expressions.py",
     "cvxpy/tests/test_labels.py",
     "cvxpy/tests/test_linalg_utils.py",
+    "cvxpy/tests/test_power_tools.py",
     "cvxpy/tests/test_problem.py",
     "cvxpy/tests/test_python_backends.py",
-    "cvxpy/utilities/key_utils.py"
+    "cvxpy/transforms/scalarize.py",
+    "cvxpy/utilities/key_utils.py",
+    "doc/sphinxext/docscrape.py"
   ],
   "completed_types": [],
   "stats": {
@@ -30,7 +35,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
     "call_sites": 73654,
     "import_statements": 2350,
-    "call_targets_resolved": 8738,
+    "call_targets_resolved": 9645,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -44,5 +49,5 @@
     "extends_class_denormalized": 325,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1812
+  "elapsed_seconds": 1814
 }
