@@ -21,6 +21,7 @@
     "cvxpy/reductions/cone2cone/affine2direct.py",
     "cvxpy/reductions/cone2cone/soc_dim3.py",
     "cvxpy/reductions/cvx_attr2constr.py",
+    "cvxpy/reductions/dcp2cone/canonicalizers/quad/huber_canon.py",
     "cvxpy/reductions/dcp2cone/cone_matrix_stuffing.py",
     "cvxpy/reductions/dcp2cone/dcp2cone.py",
     "cvxpy/reductions/solvers/conic_solvers/clarabel_conif.py",
@@ -28,6 +29,7 @@
     "cvxpy/reductions/solvers/conic_solvers/cuclarabel_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/glpk_mi_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/mosek_conif.py",
+    "cvxpy/reductions/solvers/conic_solvers/scip_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/xpress_conif.py",
     "cvxpy/tests/solver_test_helpers.py",
     "cvxpy/tests/test_atoms.py",
@@ -40,6 +42,7 @@
     "cvxpy/tests/test_constraints.py",
     "cvxpy/tests/test_copt_write.py",
     "cvxpy/tests/test_cvxpygen.py",
+    "cvxpy/tests/test_derivative.py",
     "cvxpy/tests/test_dgp.py",
     "cvxpy/tests/test_dgp2dcp.py",
     "cvxpy/tests/test_dpp.py",
@@ -66,7 +69,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
     "call_sites": 73654,
     "import_statements": 2350,
-    "call_targets_resolved": 14764,
+    "call_targets_resolved": 15253,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -80,5 +83,5 @@
     "extends_class_denormalized": 325,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1804
+  "elapsed_seconds": 1810
 }
