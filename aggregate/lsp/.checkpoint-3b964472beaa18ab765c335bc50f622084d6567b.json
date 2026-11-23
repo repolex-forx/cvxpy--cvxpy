@@ -18,7 +18,9 @@
     "cvxpy/atoms/elementwise/kl_div.py",
     "cvxpy/atoms/elementwise/logic.py",
     "cvxpy/atoms/elementwise/power.py",
+    "cvxpy/atoms/geo_mean.py",
     "cvxpy/atoms/gmatmul.py",
+    "cvxpy/atoms/lambda_max.py",
     "cvxpy/atoms/max.py",
     "cvxpy/atoms/norm.py",
     "cvxpy/atoms/quad_form.py",
@@ -43,6 +45,7 @@
     "cvxpy/lin_ops/lin_utils.py",
     "cvxpy/lin_ops/tree_mat.py",
     "cvxpy/problems/iterative.py",
+    "cvxpy/problems/objective.py",
     "cvxpy/problems/problem.py",
     "cvxpy/reductions/complex2real/canonicalizers/equality_canon.py",
     "cvxpy/reductions/complex2real/canonicalizers/matrix_canon.py",
@@ -58,6 +61,7 @@
     "cvxpy/reductions/dcp2cone/canonicalizers/suppfunc_canon.py",
     "cvxpy/reductions/dcp2cone/cone_matrix_stuffing.py",
     "cvxpy/reductions/dcp2cone/dcp2cone.py",
+    "cvxpy/reductions/dgp2dcp/canonicalizers/eye_minus_inv_canon.py",
     "cvxpy/reductions/dgp2dcp/canonicalizers/trace_canon.py",
     "cvxpy/reductions/dqcp2dcp/dqcp2dcp.py",
     "cvxpy/reductions/matrix_stuffing.py",
@@ -84,8 +88,10 @@
     "cvxpy/reductions/solvers/qp_solvers/mpax_qpif.py",
     "cvxpy/reductions/solvers/qp_solvers/piqp_qpif.py",
     "cvxpy/reductions/solvers/qp_solvers/qp_solver.py",
+    "cvxpy/reductions/solvers/qp_solvers/qpalm_qpif.py",
     "cvxpy/reductions/solvers/solving_chain.py",
     "cvxpy/reductions/solvers/solving_chain_utils.py",
+    "cvxpy/reductions/solvers/utilities.py",
     "cvxpy/reductions/utilities.py",
     "cvxpy/tests/atoms/affine/test_stack.py",
     "cvxpy/tests/base_test.py",
@@ -166,7 +172,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3b964472beaa18ab765c335bc50f622084d6567b.nq.gz",
     "call_sites": 73654,
     "import_statements": 2350,
-    "call_targets_resolved": 22468,
+    "call_targets_resolved": 22626,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -180,5 +186,5 @@
     "extends_class_denormalized": 325,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1820
+  "elapsed_seconds": 1818
 }
