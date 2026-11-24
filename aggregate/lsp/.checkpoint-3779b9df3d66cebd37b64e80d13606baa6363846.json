@@ -24,6 +24,7 @@
     "cvxpy/reductions/solvers/solving_chain.py",
     "cvxpy/tests/test_KKT.py",
     "cvxpy/tests/test_atoms.py",
+    "cvxpy/tests/test_attributes.py",
     "cvxpy/tests/test_complex.py",
     "cvxpy/tests/test_cone2cone.py",
     "cvxpy/tests/test_conic_solvers.py",
@@ -39,8 +40,10 @@
     "cvxpy/tests/test_grad.py",
     "cvxpy/tests/test_interfaces.py",
     "cvxpy/tests/test_labels.py",
+    "cvxpy/tests/test_linear_cone.py",
     "cvxpy/tests/test_logic.py",
     "cvxpy/tests/test_matrices.py",
+    "cvxpy/tests/test_nd_matmul.py",
     "cvxpy/tests/test_nonlinear_atoms.py",
     "cvxpy/tests/test_perspective.py",
     "cvxpy/tests/test_power_tools.py",
@@ -52,6 +55,7 @@
     "cvxpy/tests/test_soc_dim3.py",
     "cvxpy/tests/test_valinvec2mixedint.py",
     "cvxpy/utilities/linalg.py",
+    "doc/sphinxext/docscrape.py",
     "doc/sphinxext/docscrape_sphinx.py"
   ],
   "completed_types": [],
@@ -60,7 +64,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz",
     "call_sites": 73445,
     "import_statements": 2342,
-    "call_targets_resolved": 15144,
+    "call_targets_resolved": 16087,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -74,5 +78,5 @@
     "extends_class_denormalized": 326,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1810
+  "elapsed_seconds": 1803
 }
