@@ -2,7 +2,7 @@
   "next_action": "enrich",
   "phase_completed": "enrich_checkpoint",
   "commit_sha": "3b964472beaa18ab765c335bc50f622084d6567b",
-  "ts": "2026-11-23T23:37:29Z",
-  "files_completed": 262,
-  "call_targets_resolved": 25498
+  "ts": "2026-11-24T00:09:26Z",
+  "files_completed": 343,
+  "call_targets_resolved": 26307
 }
