@@ -3,17 +3,21 @@
   "completed_files": [
     "cvxpy/atoms/affine/binary_operators.py",
     "cvxpy/atoms/affine/diff.py",
+    "cvxpy/atoms/log_det.py",
     "cvxpy/atoms/max.py",
     "cvxpy/constraints/exponential.py",
+    "cvxpy/expressions/leaf.py",
     "cvxpy/reductions/cone2cone/soc_dim3.py",
     "cvxpy/reductions/solvers/solving_chain.py",
     "cvxpy/tests/test_KKT.py",
     "cvxpy/tests/test_atoms.py",
     "cvxpy/tests/test_conic_solvers.py",
     "cvxpy/tests/test_constant.py",
+    "cvxpy/tests/test_derivative.py",
     "cvxpy/tests/test_dgp2dcp.py",
     "cvxpy/tests/test_dpp.py",
     "cvxpy/tests/test_dqcp.py",
+    "cvxpy/tests/test_einsum.py",
     "cvxpy/tests/test_expressions.py",
     "cvxpy/tests/test_grad.py",
     "cvxpy/tests/test_logic.py",
@@ -23,7 +27,9 @@
     "cvxpy/tests/test_problem.py",
     "cvxpy/tests/test_python_backends.py",
     "cvxpy/tests/test_qp_solvers.py",
-    "cvxpy/tests/test_semidefinite_vars.py"
+    "cvxpy/tests/test_semidefinite_vars.py",
+    "cvxpy/utilities/linalg.py",
+    "doc/sphinxext/docscrape_sphinx.py"
   ],
   "completed_types": [],
   "stats": {
@@ -31,7 +37,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz",
     "call_sites": 73445,
     "import_statements": 2342,
-    "call_targets_resolved": 11080,
+    "call_targets_resolved": 11843,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -45,5 +51,5 @@
     "extends_class_denormalized": 326,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1816
+  "elapsed_seconds": 1812
 }
