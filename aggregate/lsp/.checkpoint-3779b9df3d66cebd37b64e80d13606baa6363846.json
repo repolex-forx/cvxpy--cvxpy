@@ -24,6 +24,7 @@
     "cvxpy/constraints/utilities.py",
     "cvxpy/cvxcore/python/cvxcore.py",
     "cvxpy/expressions/constants/constant.py",
+    "cvxpy/expressions/expression.py",
     "cvxpy/expressions/leaf.py",
     "cvxpy/lin_ops/backends/coo_backend.py",
     "cvxpy/lin_ops/tree_mat.py",
@@ -34,6 +35,7 @@
     "cvxpy/reductions/dcp2cone/canonicalizers/quad_over_lin_canon.py",
     "cvxpy/reductions/dcp2cone/canonicalizers/rel_entr_canon.py",
     "cvxpy/reductions/dcp2cone/cone_matrix_stuffing.py",
+    "cvxpy/reductions/solvers/conic_solvers/cplex_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/cvxopt_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/mosek_conif.py",
     "cvxpy/reductions/solvers/conic_solvers/nag_conif.py",
@@ -45,6 +47,7 @@
     "cvxpy/tests/test_KKT.py",
     "cvxpy/tests/test_atoms.py",
     "cvxpy/tests/test_attributes.py",
+    "cvxpy/tests/test_backend_selection.py",
     "cvxpy/tests/test_complex.py",
     "cvxpy/tests/test_cone2cone.py",
     "cvxpy/tests/test_conic_solvers.py",
@@ -90,7 +93,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz",
     "call_sites": 73445,
     "import_statements": 2342,
-    "call_targets_resolved": 18320,
+    "call_targets_resolved": 18919,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -104,5 +107,5 @@
     "extends_class_denormalized": 326,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1801
 }
