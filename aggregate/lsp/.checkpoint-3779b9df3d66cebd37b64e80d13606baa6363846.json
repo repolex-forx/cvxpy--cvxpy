@@ -3,6 +3,7 @@
   "completed_files": [
     "cvxpy/reductions/cone2cone/soc_dim3.py",
     "cvxpy/tests/test_atoms.py",
+    "cvxpy/tests/test_conic_solvers.py",
     "cvxpy/tests/test_constant.py",
     "cvxpy/tests/test_dgp2dcp.py",
     "cvxpy/tests/test_dpp.py",
@@ -12,7 +13,8 @@
     "cvxpy/tests/test_logic.py",
     "cvxpy/tests/test_power_tools.py",
     "cvxpy/tests/test_python_backends.py",
-    "cvxpy/tests/test_qp_solvers.py"
+    "cvxpy/tests/test_qp_solvers.py",
+    "cvxpy/tests/test_semidefinite_vars.py"
   ],
   "completed_types": [],
   "stats": {
@@ -20,7 +22,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz",
     "call_sites": 73445,
     "import_statements": 2342,
-    "call_targets_resolved": 7979,
+    "call_targets_resolved": 8369,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -34,5 +36,5 @@
     "extends_class_denormalized": 326,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1816
+  "elapsed_seconds": 1812
 }
