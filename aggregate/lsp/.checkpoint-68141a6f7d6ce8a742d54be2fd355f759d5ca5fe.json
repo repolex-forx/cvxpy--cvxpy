@@ -4,11 +4,15 @@
     "cvxpy/cvxcore/include/Eigen/src/Core/MathFunctions.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/ProductEvaluators.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/VectorwiseOp.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/AltiVec/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/Default/Half.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/GPU/PacketMath.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/GPU/TypeCasting.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/functors/UnaryFunctors.h",
     "cvxpy/cvxcore/include/Eigen/src/Geometry/Quaternion.h",
     "cvxpy/cvxcore/include/Eigen/src/QR/CompleteOrthogonalDecomposition.h",
+    "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseMatrix.h",
+    "cvxpy/cvxcore/include/Eigen/src/SparseQR/SparseQR.h",
     "cvxpy/cvxcore/python/cvxcore_wrap.cxx"
   ],
   "completed_types": [],
@@ -17,7 +21,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe.nq.gz",
     "call_sites": 71548,
     "import_statements": 2284,
-    "call_targets_resolved": 5573,
+    "call_targets_resolved": 6100,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -31,5 +35,5 @@
     "extends_class_denormalized": 317,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1817
+  "elapsed_seconds": 1807
 }
