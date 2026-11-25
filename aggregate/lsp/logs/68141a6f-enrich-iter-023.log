@@ -1,0 +1,17 @@
+[2026-11-25T22:20:26Z] === ENRICH ITERATION 23 START | repo=cvxpy/cvxpy sha=68141a6f ===
+[2026-11-25T22:20:26Z] [iter=23] PHASE START: enrich repo=cvxpy/cvxpy sha=68141a6f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/68141a6f-enrich-iter-023.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe.nq.gz
+[2026-11-25T22:20:48Z] [iter=23] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-25T22:24:16Z] [iter=23] AST store loaded triples=11231945 load_secs=204 mem_mb=957 MB
+[2026-11-25T22:24:16Z] [iter=23] Step 2: Finding LSP targets mem_mb=957 MB
+[2026-11-25T22:24:41Z] [iter=23] LSP targets found call_sites=71548 imports=2284 extends=463 implements=0 secs=25
+[2026-11-25T22:24:45Z] [iter=23] Loaded checkpoint partial graph triples=91256
+[2026-11-25T22:24:45Z] [iter=23] Primed enclosing-def cache from persisted triples entries=767
+[2026-11-25T22:25:05Z] [iter=23] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=957 MB
+[2026-11-25T22:26:05Z] [iter=23] Position index built positions=712953 nodes_with_types=885546 secs=60 mem_mb=1888 MB
+[2026-11-25T22:26:05Z] [iter=23] Step 3: Starting LSP resolution mem_mb=1888 MB already_completed_types=[] already_completed_files=37
+[2026-11-25T22:26:05Z] [iter=23] Resolving target type target_type=call_site count=71548
+[2026-11-25T22:26:08Z] [iter=23] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=0 resolved=0 errors=0 current=cvxpy/cvxcore/include/Eigen/src/SparseLU/SparseLU.h
+[2026-11-25T22:50:56Z] [iter=23] CHECKPOINT TRIGGERED elapsed_min=30.5 files_completed=38 new_files_this_iter=1 mem_mb=1891 MB
+[2026-11-25T22:50:56Z] [iter=23] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe.nq.gz triples=93861
+[2026-11-25T22:50:57Z] [iter=23] Checkpoint written, exiting with code 7
+[2026-11-25T22:50:57Z] [iter=23] PHASE END: enrich (checkpointed) elapsed_s=1830 elapsed_min=30.5 files_completed=38
