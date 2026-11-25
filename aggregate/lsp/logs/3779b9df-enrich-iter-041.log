@@ -1,0 +1,17 @@
+[2026-11-25T04:52:41Z] === ENRICH ITERATION 41 START | repo=cvxpy/cvxpy sha=3779b9df ===
+[2026-11-25T04:52:41Z] [iter=41] PHASE START: enrich repo=cvxpy/cvxpy sha=3779b9df runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/3779b9df-enrich-iter-041.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz
+[2026-11-25T04:52:57Z] [iter=41] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-25T04:55:10Z] [iter=41] AST store loaded triples=11166597 load_secs=129 mem_mb=1036 MB
+[2026-11-25T04:55:10Z] [iter=41] Step 2: Finding LSP targets mem_mb=1036 MB
+[2026-11-25T04:55:39Z] [iter=41] LSP targets found call_sites=73445 imports=2342 extends=472 implements=0 secs=29
+[2026-11-25T04:55:54Z] [iter=41] Loaded checkpoint partial graph triples=250402
+[2026-11-25T04:55:54Z] [iter=41] Primed enclosing-def cache from persisted triples entries=1730
+[2026-11-25T04:56:16Z] [iter=41] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1036 MB
+[2026-11-25T04:57:34Z] [iter=41] Position index built positions=716064 nodes_with_types=892520 secs=79 mem_mb=2252 MB
+[2026-11-25T04:57:34Z] [iter=41] Step 3: Starting LSP resolution mem_mb=2252 MB already_completed_types=[] already_completed_files=408
+[2026-11-25T04:57:34Z] [iter=41] Resolving target type target_type=call_site count=73445
+[2026-11-25T04:57:38Z] [iter=41] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=0 resolved=0 errors=0 current=cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/PacketMath.h
+[2026-11-25T05:22:42Z] [iter=41] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=408 new_files_this_iter=0 mem_mb=2252 MB
+[2026-11-25T05:22:42Z] [iter=41] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz triples=252662
+[2026-11-25T05:22:46Z] [iter=41] Checkpoint written, exiting with code 7
+[2026-11-25T05:22:46Z] [iter=41] PHASE END: enrich (checkpointed) elapsed_s=1801 elapsed_min=30.0 files_completed=408
