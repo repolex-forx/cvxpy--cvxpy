@@ -1,0 +1,20 @@
+[2026-11-25T17:49:47Z] === ENRICH ITERATION 15 START | repo=cvxpy/cvxpy sha=68141a6f ===
+[2026-11-25T17:49:47Z] [iter=15] PHASE START: enrich repo=cvxpy/cvxpy sha=68141a6f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/68141a6f-enrich-iter-015.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe.nq.gz
+[2026-11-25T17:50:03Z] [iter=15] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-25T17:53:05Z] [iter=15] AST store loaded triples=11231945 load_secs=178 mem_mb=1026 MB
+[2026-11-25T17:53:05Z] [iter=15] Step 2: Finding LSP targets mem_mb=1026 MB
+[2026-11-25T17:53:28Z] [iter=15] LSP targets found call_sites=71548 imports=2284 extends=463 implements=0 secs=23
+[2026-11-25T17:53:30Z] [iter=15] Loaded checkpoint partial graph triples=63198
+[2026-11-25T17:53:30Z] [iter=15] Primed enclosing-def cache from persisted triples entries=434
+[2026-11-25T17:53:48Z] [iter=15] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1026 MB
+[2026-11-25T17:54:41Z] [iter=15] Position index built positions=712953 nodes_with_types=885546 secs=53 mem_mb=1829 MB
+[2026-11-25T17:54:41Z] [iter=15] Step 3: Starting LSP resolution mem_mb=1829 MB already_completed_types=[] already_completed_files=15
+[2026-11-25T17:54:41Z] [iter=15] Resolving target type target_type=call_site count=71548
+[2026-11-25T17:54:45Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=0 resolved=0 errors=0 current=cvxpy/cvxcore/include/Eigen/src/Core/arch/AVX/PacketMath.h
+[2026-11-25T18:04:29Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=14.7 files_done=1 resolved=168 errors=0 current=cvxpy/cvxcore/include/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+[2026-11-25T18:14:17Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=2 resolved=338 errors=0 current=cvxpy/cvxcore/include/Eigen/src/Core/arch/CUDA/Half.h
+[2026-11-25T18:19:31Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=29.7 files_done=3 resolved=409 errors=0 current=cvxpy/cvxcore/include/Eigen/src/Core/MapBase.h
+[2026-11-25T18:20:02Z] [iter=15] CHECKPOINT TRIGGERED elapsed_min=30.3 files_completed=18 new_files_this_iter=3 mem_mb=1829 MB
+[2026-11-25T18:20:02Z] [iter=15] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe.nq.gz triples=66864
+[2026-11-25T18:20:03Z] [iter=15] Checkpoint written, exiting with code 7
+[2026-11-25T18:20:03Z] [iter=15] PHASE END: enrich (checkpointed) elapsed_s=1815 elapsed_min=30.3 files_completed=18
