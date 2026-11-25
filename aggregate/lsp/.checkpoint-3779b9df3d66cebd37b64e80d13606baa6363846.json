@@ -117,6 +117,7 @@
     "cvxpy/constraints/utilities.py",
     "cvxpy/constraints/zero.py",
     "cvxpy/cvxcore/include/Eigen/src/Cholesky/LDLT.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/AVX512/PacketMath.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/Default/Half.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/Complex.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/PacketMath.h",
@@ -422,7 +423,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz",
     "call_sites": 73445,
     "import_statements": 2342,
-    "call_targets_resolved": 29532,
+    "call_targets_resolved": 30148,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -436,5 +437,5 @@
     "extends_class_denormalized": 326,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1824
+  "elapsed_seconds": 1807
 }
