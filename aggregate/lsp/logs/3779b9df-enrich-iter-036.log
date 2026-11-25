@@ -1,0 +1,47 @@
+[2026-11-25T02:09:37Z] === ENRICH ITERATION 36 START | repo=cvxpy/cvxpy sha=3779b9df ===
+[2026-11-25T02:09:37Z] [iter=36] PHASE START: enrich repo=cvxpy/cvxpy sha=3779b9df runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/3779b9df-enrich-iter-036.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz
+[2026-11-25T02:09:59Z] [iter=36] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-25T02:12:42Z] [iter=36] AST store loaded triples=11166597 load_secs=159 mem_mb=1034 MB
+[2026-11-25T02:12:42Z] [iter=36] Step 2: Finding LSP targets mem_mb=1034 MB
+[2026-11-25T02:13:05Z] [iter=36] LSP targets found call_sites=73445 imports=2342 extends=472 implements=0 secs=23
+[2026-11-25T02:13:14Z] [iter=36] Loaded checkpoint partial graph triples=223626
+[2026-11-25T02:13:14Z] [iter=36] Primed enclosing-def cache from persisted triples entries=1553
+[2026-11-25T02:13:33Z] [iter=36] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1034 MB
+[2026-11-25T02:14:24Z] [iter=36] Position index built positions=716064 nodes_with_types=892520 secs=51 mem_mb=2260 MB
+[2026-11-25T02:14:24Z] [iter=36] Step 3: Starting LSP resolution mem_mb=2260 MB already_completed_types=[] already_completed_files=218
+[2026-11-25T02:14:24Z] [iter=36] Resolving target type target_type=call_site count=73445
+[2026-11-25T02:14:26Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=0 resolved=0 errors=0 current=cvxpy/reductions/dcp2cone/canonicalizers/von_neumann_entr_canon.py
+[2026-11-25T02:15:00Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=1 resolved=14 errors=0 current=cvxpy/tests/test_lin_ops.py
+[2026-11-25T02:16:44Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=7.1 files_done=2 resolved=86 errors=0 current=cvxpy/reductions/dcp2cone/canonicalizers/quad/power_canon.py
+[2026-11-25T02:17:44Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=4 resolved=115 errors=0 current=cvxpy/reductions/discrete2mixedint/valinvec2mixedint.py
+[2026-11-25T02:18:18Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=8.7 files_done=5 resolved=136 errors=0 current=cvxpy/reductions/solvers/conic_solvers/pdlp_conif.py
+[2026-11-25T02:18:55Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=6 resolved=163 errors=0 current=cvxpy/reductions/inverse_data.py
+[2026-11-25T02:19:26Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=8 resolved=180 errors=0 current=cvxpy/reductions/cone2cone/affine2direct.py
+[2026-11-25T02:19:56Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=10.3 files_done=10 resolved=231 errors=0 current=cvxpy/atoms/cummax.py
+[2026-11-25T02:20:58Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=11.4 files_done=13 resolved=275 errors=0 current=cvxpy/reductions/dcp2cone/canonicalizers/lambda_max_canon.py
+[2026-11-25T02:21:58Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=15 resolved=304 errors=0 current=cvxpy/atoms/quantum_cond_entr.py
+[2026-11-25T02:22:48Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=18 resolved=350 errors=0 current=cvxpy/atoms/prod.py
+[2026-11-25T02:23:38Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=14.0 files_done=20 resolved=379 errors=0 current=cvxpy/utilities/debug_tools.py
+[2026-11-25T02:24:55Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=15.3 files_done=24 resolved=456 errors=0 current=cvxpy/reductions/cone2cone/exotic2common.py
+[2026-11-25T02:25:36Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=25 resolved=485 errors=0 current=cvxpy/atoms/affine/kron.py
+[2026-11-25T02:26:26Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=16.8 files_done=27 resolved=504 errors=0 current=cvxpy/atoms/axis_atom.py
+[2026-11-25T02:27:03Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=17.4 files_done=29 resolved=544 errors=0 current=cvxpy/atoms/min.py
+[2026-11-25T02:28:08Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=18.5 files_done=32 resolved=594 errors=0 current=cvxpy/atoms/elementwise/logic.py
+[2026-11-25T02:28:45Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=19.1 files_done=33 resolved=626 errors=0 current=cvxpy/reductions/dgp2dcp/dgp2dcp.py
+[2026-11-25T02:30:07Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=20.5 files_done=35 resolved=691 errors=0 current=cvxpy/atoms/affine/wraps.py
+[2026-11-25T02:30:46Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=21.2 files_done=37 resolved=714 errors=0 current=cvxpy/atoms/elementwise/log_normcdf.py
+[2026-11-25T02:31:43Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=40 resolved=747 errors=0 current=setup.py
+[2026-11-25T02:32:30Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=22.9 files_done=42 resolved=780 errors=0 current=cvxpy/reductions/solvers/constant_solver.py
+[2026-11-25T02:33:00Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=23.4 files_done=44 resolved=792 errors=0 current=cvxpy/atoms/sign.py
+[2026-11-25T02:33:42Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=24.1 files_done=46 resolved=809 errors=0 current=cvxpy/atoms/affine/concatenate.py
+[2026-11-25T02:34:21Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=51 resolved=856 errors=0 current=cvxpy/atoms/suppfunc.py
+[2026-11-25T02:35:05Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=25.5 files_done=52 resolved=877 errors=0 current=cvxpy/constraints/psd.py
+[2026-11-25T02:35:38Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=26.0 files_done=54 resolved=893 errors=0 current=cvxpy/tests/test_solver_data_validation.py
+[2026-11-25T02:36:37Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=55 resolved=911 errors=0 current=cvxpy/reductions/complex2real/canonicalizers/psd_canon.py
+[2026-11-25T02:37:33Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=27.9 files_done=58 resolved=946 errors=0 current=cvxpy/reductions/solvers/conic_solvers/moreau_conif.py
+[2026-11-25T02:38:11Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=28.6 files_done=60 resolved=987 errors=0 current=cvxpy/tests/ram_limited.py
+[2026-11-25T02:39:00Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=29.4 files_done=63 resolved=1020 errors=0 current=cvxpy/atoms/pf_eigenvalue.py
+[2026-11-25T02:39:41Z] [iter=36] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=283 new_files_this_iter=65 mem_mb=2260 MB
+[2026-11-25T02:39:41Z] [iter=36] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz triples=232915
+[2026-11-25T02:39:43Z] [iter=36] Checkpoint written, exiting with code 7
+[2026-11-25T02:39:43Z] [iter=36] PHASE END: enrich (checkpointed) elapsed_s=1804 elapsed_min=30.1 files_completed=283
