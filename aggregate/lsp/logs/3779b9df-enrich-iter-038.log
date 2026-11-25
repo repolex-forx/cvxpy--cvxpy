@@ -1,0 +1,22 @@
+[2026-11-25T03:14:56Z] === ENRICH ITERATION 38 START | repo=cvxpy/cvxpy sha=3779b9df ===
+[2026-11-25T03:14:56Z] [iter=38] PHASE START: enrich repo=cvxpy/cvxpy sha=3779b9df runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/3779b9df-enrich-iter-038.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz
+[2026-11-25T03:15:13Z] [iter=38] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-11-25T03:18:49Z] [iter=38] AST store loaded triples=11166597 load_secs=213 mem_mb=978 MB
+[2026-11-25T03:18:49Z] [iter=38] Step 2: Finding LSP targets mem_mb=978 MB
+[2026-11-25T03:19:14Z] [iter=38] LSP targets found call_sites=73445 imports=2342 extends=472 implements=0 secs=25
+[2026-11-25T03:19:24Z] [iter=38] Loaded checkpoint partial graph triples=239844
+[2026-11-25T03:19:24Z] [iter=38] Primed enclosing-def cache from persisted triples entries=1674
+[2026-11-25T03:19:44Z] [iter=38] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=978 MB
+[2026-11-25T03:20:38Z] [iter=38] Position index built positions=716064 nodes_with_types=892520 secs=54 mem_mb=2283 MB
+[2026-11-25T03:20:38Z] [iter=38] Step 3: Starting LSP resolution mem_mb=2283 MB already_completed_types=[] already_completed_files=381
+[2026-11-25T03:20:38Z] [iter=38] Resolving target type target_type=call_site count=73445
+[2026-11-25T03:20:39Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=0 resolved=0 errors=0 current=cvxpy/atoms/lambda_min.py
+[2026-11-25T03:21:10Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=7 resolved=12 errors=0 current=cvxpy/reductions/dgp2dcp/canonicalizers/mul_canon.py
+[2026-11-25T03:21:46Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=11 resolved=25 errors=0 current=cvxpy/lin_ops/backends/__init__.py
+[2026-11-25T03:22:22Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=18 resolved=39 errors=0 current=cvxpy/utilities/grad.py
+[2026-11-25T03:22:58Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=24 resolved=49 errors=0 current=cvxpy/cvxcore/include/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+[2026-11-25T03:44:18Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=29.4 files_done=25 resolved=377 errors=0 current=cvxpy/cvxcore/include/Eigen/src/Core/arch/Default/Half.h
+[2026-11-25T03:44:58Z] [iter=38] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=406 new_files_this_iter=25 mem_mb=2283 MB
+[2026-11-25T03:44:58Z] [iter=38] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/3779b9df3d66cebd37b64e80d13606baa6363846.nq.gz triples=242982
+[2026-11-25T03:45:01Z] [iter=38] Checkpoint written, exiting with code 7
+[2026-11-25T03:45:01Z] [iter=38] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=406
