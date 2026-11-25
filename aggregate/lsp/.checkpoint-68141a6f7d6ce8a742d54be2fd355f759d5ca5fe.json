@@ -21,11 +21,16 @@
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SSE/PacketMath.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SYCL/InteropHeaders.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/functors/UnaryFunctors.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/products/GeneralBlockPanelKernel.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/products/GeneralMatrixMatrix.h",
+    "cvxpy/cvxcore/include/Eigen/src/Eigenvalues/ComplexSchur.h",
     "cvxpy/cvxcore/include/Eigen/src/Eigenvalues/Tridiagonalization.h",
     "cvxpy/cvxcore/include/Eigen/src/Geometry/Quaternion.h",
     "cvxpy/cvxcore/include/Eigen/src/Geometry/Rotation2D.h",
+    "cvxpy/cvxcore/include/Eigen/src/LU/arch/InverseSize4.h",
     "cvxpy/cvxcore/include/Eigen/src/QR/CompleteOrthogonalDecomposition.h",
+    "cvxpy/cvxcore/include/Eigen/src/SVD/JacobiSVD.h",
+    "cvxpy/cvxcore/include/Eigen/src/SparseCholesky/SimplicialCholesky.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseMatrix.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseQR/SparseQR.h",
     "cvxpy/cvxcore/python/cvxcore_wrap.cxx",
@@ -37,7 +42,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe.nq.gz",
     "call_sites": 71548,
     "import_statements": 2284,
-    "call_targets_resolved": 9419,
+    "call_targets_resolved": 10039,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -51,5 +56,5 @@
     "extends_class_denormalized": 317,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1810
+  "elapsed_seconds": 1802
 }
