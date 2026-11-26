@@ -42,12 +42,14 @@
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/Complex.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/MathFunctions.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/SSE/Complex.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SSE/MathFunctions.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SSE/PacketMath.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SYCL/InteropHeaders.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SYCL/PacketMath.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/ZVector/Complex.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/ZVector/PacketMath.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/functors/AssignmentFunctors.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/functors/BinaryFunctors.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/functors/UnaryFunctors.h",
@@ -88,6 +90,7 @@
     "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseBlock.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseCwiseBinaryOp.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseDot.h",
+    "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseMap.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseMatrix.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparsePermutation.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseCore/SparseRef.h",
@@ -99,10 +102,12 @@
     "cvxpy/cvxcore/include/Eigen/src/SparseLU/SparseLU_gemm_kernel.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseLU/SparseLU_pivotL.h",
     "cvxpy/cvxcore/include/Eigen/src/SparseQR/SparseQR.h",
+    "cvxpy/cvxcore/include/Eigen/src/UmfPackSupport/UmfPackSupport.h",
     "cvxpy/cvxcore/include/Eigen/src/plugins/ArrayCwiseUnaryOps.h",
     "cvxpy/cvxcore/include/Eigen/src/plugins/IndexedViewMethods.h",
     "cvxpy/cvxcore/python/cvxcore_wrap.cxx",
-    "cvxpy/cvxcore/src/LinOpOperations.cpp"
+    "cvxpy/cvxcore/src/LinOpOperations.cpp",
+    "cvxpy/utilities/cpp/sparsecholesky/main.cpp"
   ],
   "completed_types": [],
   "stats": {
@@ -110,7 +115,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe.nq.gz",
     "call_sites": 71548,
     "import_statements": 2284,
-    "call_targets_resolved": 16976,
+    "call_targets_resolved": 17417,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -124,5 +129,5 @@
     "extends_class_denormalized": 317,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1817
+  "elapsed_seconds": 1814
 }
