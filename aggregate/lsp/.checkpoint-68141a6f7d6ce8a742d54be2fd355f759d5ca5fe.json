@@ -10,6 +10,7 @@
     "cvxpy/cvxcore/include/Eigen/src/Core/CoreEvaluators.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/DenseBase.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/GenericPacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/IO.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/IndexedView.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/MapBase.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/MathFunctions.h",
@@ -43,9 +44,11 @@
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/Complex.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/MathFunctions.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/NEON/TypeCasting.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SSE/Complex.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SSE/MathFunctions.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SSE/PacketMath.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/arch/SVE/PacketMath.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SYCL/InteropHeaders.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SYCL/PacketMath.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h",
@@ -60,6 +63,7 @@
     "cvxpy/cvxcore/include/Eigen/src/Core/products/GeneralMatrixVector.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/products/SelfadjointMatrixMatrix.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/products/SelfadjointMatrixVector.h",
+    "cvxpy/cvxcore/include/Eigen/src/Core/products/TriangularMatrixMatrix.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/util/Memory.h",
     "cvxpy/cvxcore/include/Eigen/src/Core/util/SymbolicIndex.h",
     "cvxpy/cvxcore/include/Eigen/src/Eigenvalues/ComplexEigenSolver.h",
@@ -118,7 +122,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/68141a6f7d6ce8a742d54be2fd355f759d5ca5fe.nq.gz",
     "call_sites": 71548,
     "import_statements": 2284,
-    "call_targets_resolved": 17771,
+    "call_targets_resolved": 18210,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -132,5 +136,5 @@
     "extends_class_denormalized": 317,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1827
+  "elapsed_seconds": 1820
 }
